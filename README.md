@@ -11,5 +11,4 @@ Apriori algorithm for discovering frequent itemsets for mining Boolean associati
 
 ##To-Do:
 
-* Calculate Confidence
-* Generate Association Rules
+* Parallel Partition method for speeding up mining process (Reference : http://ieeexplore.ieee.org/abstract/document/553164/)
