@@ -8,3 +8,8 @@ Apriori algorithm for discovering frequent itemsets for mining Boolean associati
 **Original Paper** :
 
 > *Rakesh Agrawal and Ramakrishnan Srikant Fast algorithms for mining association rules in large databases. Proceedings of the 20th International Conference on Very Large Data Bases, VLDB, pages 487-499, Santiago, Chile, September 1994.*
+
+##To-Do:
+
+* Calculate Confidence
+* Generate Association Rules
