@@ -24,8 +24,4 @@ Example:
 ##Dataset:
 
 `retail.dat` contains the (anonymized) retail market basket data from an anonymous Belgian retail store(Source: http://fimi.ua.ac.be/data/).
-Additionally, `retail.dat` was converted into `retail.csv` using `dat2csv.py` provided in the repository.
-
-##To-Do:
-
-* Parallel Partition method for speeding up mining process (Reference : http://ieeexplore.ieee.org/abstract/document/553164/)
+Additionally, `retail.dat` was converted into `retail.csv` using `dat2csv.py` provided in the repository
