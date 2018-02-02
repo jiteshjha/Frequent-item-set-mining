@@ -190,8 +190,8 @@ if __name__ == "__main__":
         system("mkdir temp")
         dataset = str(sys.argv[1])
         num_process = comm.Get_size()
-        file_size = int(floor(path.getsize(dataset)/(float(1000000) * num_process)))
-        system("split --bytes=" + str(file_size)+"M " + dataset + " temp/retail")
+        file_size = int(floor(path.getsize(dataset)/(num_process)))
+        system("split --bytes=" + str(file_size)+" " + dataset + " temp/retail")
 
 
         # Get current working directory
